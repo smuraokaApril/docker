@@ -1,0 +1,6 @@
+# ベースイメージを指定
+FROM tleemcjr/metasploitable2:latest
+# コマンド実行
+RUN /bin/services.sh && bash
+# ポート開放
+# EXPOSE

@@ -1,0 +1,7 @@
+# ベースイメージを指定
+FROM kalilinux/kali-rolling:latest
+# コマンド実行
+#RUN apt-get update -y && apt-get upgrade -y  && apt-get install -y metasploit-framework && apt-get install -y kali-tools-passwords
+RUN apt-get update -y && apt-get upgrade -y  && apt-get install -y metasploit-framework
+# ポート開放
+# EXPOSE 
